@@ -24,32 +24,16 @@
     <main>
         <div class="container">
             <h2>Password Generator</h2>
-            <form action="" method="GET" class="form-control">
+            <form action="./generatedPassword.php" method="GET" class="form-control">
                 <div class="form-group">
                     <label for="passwordLength">Choose your psw lenght</label>
-                    <input type="number" class="form-control" id="passwordLength" name="passwordLength" min="6" max="20" required>
+                    <input type="number" class="form-control" id="passwordLength" name="passwordLength" min="6" max="50" required>
                 </div>
                 <button type="submit" class="btn btn-primary">Generate Password</button>
             </form>
         </div>
 
-        <div class="container">
-                <div class="row justify-content-around">
-                    <div class="col-5">
-                        <h3>
-                            GENERATED PSW:
-                        </h3>
-                    </div>
-                    <div class="col-5 ">
-                        <h3 id="psw">
-                            <?php  
-                                echo $password;
-                            ?>
-                        </h3>
-                    </div>
-                    
-                </div>
-        </div>
+        
     </main>
 </body>
 </html>
