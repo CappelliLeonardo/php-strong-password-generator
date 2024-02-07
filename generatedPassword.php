@@ -1,6 +1,6 @@
 <?php
 session_start();
-include __DIR__ . '/functions.php';
+include'functions.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
